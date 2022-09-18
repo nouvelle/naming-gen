@@ -1,19 +1,26 @@
-require('dotenv').config()
+#!/usr/bin/env node
+
 const axios = require('axios')
 const c = require('ansi-colors')
 const { Input } = require('enquirer')
 
-welcomeMsg()
-checkApiKey()
-inputWord()
+main()
+
+async function main () {
+  welcomeMsg()
+  const result = checkApiKey()
+  if (result) inputWord()
+}
 
 function welcomeMsg () {
-  console.log(c.yellow("\n  Welcome to FIND NAMING!!🎉 \n  Let's find good variable name 😁 \n"))
+  console.log(c.yellow("\n  Welcome to NAMING-GEN!!🎉 \n  Let's find good variable name 😁 \n"))
 }
 
 function checkApiKey () {
   if (!process.env.CODIC_ACCESS_TOKEN) {
     console.log(c.red('👀 Please set your API key.'))
+  } else {
+    return true
   }
 }
 
