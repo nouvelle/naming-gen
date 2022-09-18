@@ -1,7 +1,7 @@
 {
   "name": "find-naming",
   "version": "1.0.0",
-  "description": "",
+  "description": "Suggests a nice English name for a variable or function name when entered in Japanese.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ext .js --ignore-path .gitignore .",
@@ -35,10 +35,9 @@
     "type": "git",
     "url": "git+https://github.com/nouvelle/find-naming.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "koeri",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/nouvelle/find-naming/issues"
-  },
-  "homepage": "https://github.com/nouvelle/find-naming#readme"
+  }
 }
