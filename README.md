@@ -30,7 +30,7 @@ export CODIC_ACCESS_TOKEN=YOUR_API_KEY
 
 If it is not set, you will get a message like this.  
 もし設定していなければ、このようなメッセージが表示され、使用することができません。  
-<img width="380" alt="error" src="https://user-images.githubusercontent.com/5979966/190919820-4b7efbae-b82a-4380-abd6-74a9b4b9db9d.png">
+<img width="288" alt="error" src="https://user-images.githubusercontent.com/5979966/190945988-6fca1025-6dd4-42f7-82fa-32b4b35e0124.png">
 
 
 ## Usage
