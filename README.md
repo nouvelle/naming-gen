@@ -35,5 +35,5 @@ If it is not set, you will get a message like this.
 
 ## Usage
 
-![how_to_use](https://user-images.githubusercontent.com/5979966/190919845-c5e29554-5094-4039-85d0-ec5fd3f6614c.gif)
+![how_to_use](https://user-images.githubusercontent.com/5979966/190947247-70a6a9c1-8e2a-4333-8d53-bf4b9550bf00.gif)
 

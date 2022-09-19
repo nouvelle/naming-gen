@@ -1,6 +1,6 @@
 {
   "name": "naming-gen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Suggests a nice English name for a variable or function name when entered in Japanese.",
   "main": "index.js",
   "scripts": {
